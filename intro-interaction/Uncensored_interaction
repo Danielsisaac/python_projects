@@ -1,0 +1,47 @@
+name = input('Welcome, what name do you prefer to go by: ')
+
+print ("Hello, how are you doing?", name)
+age = input('Before you proceed, what is your age: ')
+
+if int(age) <= 17:
+    print ("You are not allowed in.")
+elif int(age) > 17 and int(age) <= 25:
+    print ("You're above legal age, but not really all that grown though. Navigate cautiously, for you are being watched", name)
+elif int(age) > 25 and int(age) <= 35:
+    print ("Well, you're welcome, feel free young-blood, the world is your oyster. Explore and have good fun, not too much though", name)
+    print ("Dawg, I hope for your sake that you're married though", name)
+    print ("If you are, you're looking to spice things up huh? ;)!, and if you're aren't, well then what in the name of all that is green, are you waiting for?")
+    question1 = input('Hold up, are you married?, Please I am not in for some long bullshit reply, just give me binary replies for now:  ')
+    if question1 == ("Yes") or question1 == ("yes"):
+        print ("Good one, do your thing player")
+    elif question1 == ("No") or question1 == ("no"):
+        question2 = input('Okay, are you engaged?: ')
+        if question2 == ("Yes") or question2 == ("yes"):
+            print ("Alright, you're in the clear. You're the proverbial half-bread, at least you're better than none. Do your thing player")
+        elif question2 == ("No") or question2 == ("no"):
+            question3 = input('Nigga, do you at least have a significant other with whom you are in a relationship with?: ')
+            if question3 == ("Yes") or question3 == ("yes"):
+                print ("Alright, you're in the clear. Phew, at least you won't freeze in winter. Do your thing player!")
+            elif question3 == ("No") or question3 == ("no"):
+                question4 = input('Nigga, why?!: ')
+                print ("I knew you was gon say some bullshit, get your sorry behind out of here, fuck is wrong with you?")
+elif int(age) > 35 and int(age) <= 70:
+    print ("Dawg, I hope for your sake that you're married though", name)
+    print ("If you are, you're looking to spice things up huh? ;)!, and if you're aren't, well then what in the name of all that is green, are you waiting for?")
+    question1 = input('Hold up, are you married?, Please I am not in for some long bullshit reply, just give me binary replies for now: ')
+    if question1 == ("Yes") or question1 == ("yes"):
+        print ("Good one, do your thing player")
+    elif question1 == ("No") or question1 == ("no"):
+        question2 = input('Okay, are you engaged?: ')
+        if question2 == ("Yes") or question2 == ("yes"):
+            print ("Alright, you're in the clear. You're the proverbial half-bread, at least you're better than none. Do your thing player")
+        elif question2 == ("No") or question2 == ("no"):
+            question3 = input('Nigga, do you at least have a significant other with whom you are in a relationship with?: ')
+            if question3 == ("Yes") or question3 == ("yes"):
+                print ("Alright, you're in the clear. Phew, at least you won't freeze in winter. Do your thing player!")
+            elif question3 == ("No") or question3 == ("no"):
+                question4 = input('Nigga, why?!: ')
+                print ("I knew you was gon say some bullshit, get your sorry behind out of here, fuck is wrong with you?")
+else:
+    print ("Nigga, get your old behind the fuck away from here, right now!. What the fuck do you think here is?")
+    print ("My bad, gran gran, the real life individual said I should not speak to an old person in that manner. So fuck off kindly, will you please?")

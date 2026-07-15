@@ -1,0 +1,1 @@
+This folder contains the first python project i'd ever done, which was based on basic reply interaction after giving a response.
