@@ -1,0 +1,2 @@
+for x in range(0, 10, 1): #this setting in the bracket represent the start point, stop, and step points, the step indicating the addition number that will occur. For step 1, the number will be adding by just 1. If it was 2, it will add in numbers of 2
+print (x)
