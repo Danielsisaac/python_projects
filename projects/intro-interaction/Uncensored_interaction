@@ -6,7 +6,7 @@ age = input('Before you proceed, what is your age: ')
 if int(age) <= 17:
     print ("You are not allowed in.")
 elif int(age) > 17 and int(age) <= 25:
-    print ("You're above legal age, but not really all that grown though. Navigate cautiously, for you are being watched", name)
+    print ("You are of legal age, but not really all that grown though. Navigate cautiously, for you are being watched", name)
 elif int(age) > 25 and int(age) <= 35:
     print ("Well, you're welcome, feel free young-blood, the world is your oyster. Explore and have good fun, not too much though", name)
     print ("Dawg, I hope for your sake that you're married though", name)
